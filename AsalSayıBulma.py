@@ -23,4 +23,5 @@ while True:
 
         else:
             print(sayi1,"asal bir sayı değildir.")
+            
 
