@@ -4,9 +4,9 @@ def liste_parser(liste):
     sayılar=[]
     isimler=[]
     for item in liste:
-        if isinstance(item,int) or isinstance(item,float):
+        if type(item)==int or type(item)==float:
             sayılar.append(item)
-        elif isinstance(item,str):
+        elif type(item)==str:
             isimler.append(item)
     return print("sayılar listesi:",sayılar,"\n","isimler listesi:",isimler)
 
