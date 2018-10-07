@@ -1,4 +1,4 @@
-#1'den 100'e kadar olan ve 3 e tam bölünen sayıları bulunuz ?
+#1'den 100'e kadar olan ve 3e tam bölünen sayıları bulunuz ?
 
 sayılar=[]
 for i in range(1,100):
